@@ -73,7 +73,7 @@ woowa-beavers-infra/
 │   │   ├── modules/
 │   │   │   ├── compute/            # EC2-1~5 인스턴스 및 보안그룹
 │   │   │   ├── networking/         # Bastion Host, NAT Instance
-│   │   │   ├── cdn/                # ALB, 타겟 그룹, 리스너, 라우팅 규칙
+│   │   │   ├── cdn/                # ALB, CloudFront, WAF, 타겟 그룹, 리스너, 라우팅 규칙 (미작성 일부)
 │   │   │   ├── storage/            # S3 (미작성)
 │   │   │   └── database/           # RDS (미작성)
 │   │   ├── main.tf
