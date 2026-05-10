@@ -82,15 +82,15 @@ woowa-beavers-infra/
 │   │   └── terraform.tfvars.example
 │   ├── sec/                        # sec 계정 - 보안 서버
 │   │   ├── modules/
-│   │   │   ├── compute/            # EC2 (Wazuh, TheHive, MISP) (미작성)
+│   │   │   ├── compute/            # EC2 (TheHive, MISP) (미작성)
 │   │   │   ├── networking/         # VPC, 서브넷, 보안그룹 (미작성)
-│   │   │   ├── security/           # GuardDuty, SecurityHub, KMS (미작성)
+│   │   │   ├── security/           # GuardDuty, SecurityHub, KMS, CloudTrail Lake (미작성)
 │   │   │   └── iam/                # IAM Role (미작성)
 │   │   ├── main.tf
 │   │   ├── variables.tf
 │   │   ├── outputs.tf
 │   │   └── terraform.tfvars.example
-│   └── cloudflare/                 # Cloudflare - DNS, Zero Trust, Tunnel
+│   └── cloudflare/
 │       ├── main.tf
 │       ├── variables.tf
 │       └── terraform.tfvars.example
